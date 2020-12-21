@@ -1,0 +1,11 @@
+
+.blur-fead{
+    position: relative;
+    background: linear-gradient(0deg, #eaeded ,#ffffff00);
+    width: 100%;
+    height: 46vh;
+    margin-top: -339px;
+    filter: blur(2px);
+    top: 44%;
+    z-index: 0;
+}

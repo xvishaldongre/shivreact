@@ -1,0 +1,14 @@
+.first_row{
+    display: flex;
+    z-index: 1;
+    margin-top: -280px;
+}
+
+.product_row{
+  display: flex;
+    z-index: 1;
+}
+
+.product_slider{
+  margin:0 25px 0 25px;
+}

@@ -1,0 +1,140 @@
+
+.header{
+    background-color: #121921;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.header_logo{
+    object-fit: contain;
+    margin-top: 7px;
+    margin-left: 8px;
+    margin-right: 18px;
+    width: 89px;
+}
+
+.header_search{
+    display: flex;
+    flex: 1;
+}
+
+.header_searchbar{
+    height: 15px;
+    padding: 16px;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border : none;
+    outline:  none;
+}
+
+.header_searchIcon{
+    background-color: #f5b96b;
+    padding: 4px;
+    font-weight: 400;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.header_address{
+    color:#FFF;
+}
+
+.header_location{
+    display:flex;
+    margin-right: 25px;
+}
+
+.header_secondOption,
+.header_location span{
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.cart_box .header_secondOption{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.header_location span{
+    line-height: 10px;
+}
+
+
+.header_firstOption,
+.header_address span:first-child{  
+    font-size: 13px;
+    font-weight: 450;
+}
+
+.header_address span:first-child{
+    margin-left: 23px;
+    color :#ccc;   
+    font-size: 11px;
+}
+
+.header_locationIcon{
+    margin-top: -8px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headder_link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header_option{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_downArrow{
+    margin-bottom: -5px;
+}
+
+.header_cart{
+    color:#fff;
+     margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 22px;
+    height: 17px;
+    object-fit: fill;
+}
+
+.header_logo_img,
+.header_address,
+.headder_link {
+    border: 1px solid #121921;
+    border-radius: 2px;
+}
+
+.header_logo_img:hover,
+.header_address:hover,
+.headder_link:hover {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.cart_number{
+    position: relative;
+    top: -11px;
+    right: 38px !important;
+}
